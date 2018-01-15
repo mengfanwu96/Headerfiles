@@ -4,6 +4,12 @@ This git repository represents part of a collection of summaries of varying qual
 It was created with the motivation to establish en effective basis for sharing knowledge and profiting from each others work. It allows using a common, working latex base by design.
 The collection comprises summaries in german, in english, sometimes including a short version (which is usually more up to date than the long one - guess why...).
 
+# Git rules
+
+1. Use your own branch to commit.
+2. Commit features, not your daily / weekly status.
+3. Write [meaningful commit messsages](https://chris.beams.io/posts/git-commit/)
+4. When you find an error please make an [issue](https://docs.gitlab.com/ee/user/project/issues/) assigned to `muellegi`, describing the problem you found.
 
 # Getting started
 
@@ -25,9 +31,3 @@ The collection comprises summaries in german, in english, sometimes including a 
 
 6. Contact [me](mailto:muellegi@student.ethz.ch) if you need help with git or latex or life in general.
 
-# Git rules
-
-1. Use your own branch to commit.
-2. Commit features, not your daily / weekly status.
-3. Write [meaningful commit messsages](https://chris.beams.io/posts/git-commit/)
-4. When you find an error please make an [issue](https://docs.gitlab.com/ee/user/project/issues/) assigned to `muellegi`, describing the problem you found.

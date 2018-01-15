@@ -1,7 +1,7 @@
 # What is this?
 
-This git repository represents the basis of a collection of summaries of varying quality, that helped the owner getting through the bachelor.
-It was created with the motivation to establish en effective basis for sharing knowledge and profiting from each others work.
+This git repository represents the basis of a collection of summaries of varying quality and extent.
+It was created with the motivation to establish en effective basis for sharing knowledge and profiting from each others work. It allows using a common, working latex base by design.
 The collection comprises summaries in german, in english, sometimes including a short version (which is usually more up to date then the long one - guess why...).
 
 

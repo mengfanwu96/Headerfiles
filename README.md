@@ -1,6 +1,6 @@
 # Git workflow for ZFSG
 
-0. Contact [me](mailto:muellegi@student.ethz.ch) to get access to one of the [available summaries](ListOfSummaries).
+0. Contact [me](mailto:muellegi@student.ethz.ch) to get access to one of the [available summaries](ListOfSummaries.md).
 
 1. Choose local a folder to contain your summaries.
 

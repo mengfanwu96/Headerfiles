@@ -10,3 +10,5 @@
 | [Signals and Systems](https://gitlab.ethz.ch/ZFSG/H2016_SignalsAndSystems_DAndrea) | R. D'Andrea | Tested |
 | [Stochastik](https://gitlab.ethz.ch/ZFSG/H2016_Stochastik_Maathuis) | M. H. Maathuis | Tested |
 | [System Modelling](https://gitlab.ethz.ch/ZFSG/H2016_SystemModeling_Ducard) | G. Ducard | Tested |
+
+_Tested_ in this case means that I and possibly others have used this summary successfully for the respective exam.

@@ -29,5 +29,5 @@ The collection comprises summaries in german, in english, sometimes including a 
 
 5. Create your own branch, do your adaptation, push when you're finished or to back up.
 
-6. Contact [me](mailto:muellegi@student.ethz.ch) if you need help with git or latex or life in general.
+6. Contact [me](mailto:muellegi@student.ethz.ch) if you need help with git or latex or life in general (maybe not).
 

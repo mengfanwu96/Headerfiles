@@ -10,4 +10,3 @@
 | [Signals and Systems](https://gitlab.ethz.ch/ZFSG/H2016_SignalsAndSystems_DAndrea) | R. D'Andrea | Tested |
 | [Stochastik](https://gitlab.ethz.ch/ZFSG/H2016_Stochastik_Maathuis) | M. H. Maathuis | Tested |
 | [System Modelling](https://gitlab.ethz.ch/ZFSG/H2016_SystemModeling_Ducard) | G. Ducard | Tested |
-| [Robot Dynamics](https://gitlab.ethz.ch/ZFSG/RobotDynamics) | M. Hutter | WIP |

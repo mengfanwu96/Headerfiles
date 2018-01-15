@@ -34,7 +34,7 @@ The collection comprises summaries in german, in english, sometimes including a 
 
     `git clone https://gitlab.ethz.ch/ZFSG/SummaryName`
 
-5. Create your own branch, do your adaptation, push when you're finished or to back up.
+5. Create your own branch, do your adaptation, push whenever you add a significant ammount of new content.
 
 6. Contact [me](mailto:muellegi@student.ethz.ch) if you need help with git or latex or life in general (maybe not).
 

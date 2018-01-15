@@ -1,6 +1,6 @@
 # Git workflow for ZFSG
 
-1. Choose a folder to contain your summaries.
+1. Choose local a folder to contain your summaries.
 
 2. `cd` to `chosen folder` and clone the [Headerfiles](https://gitlab.ethz.ch/ZFSG/Headerfiles) repo:
 

@@ -8,7 +8,7 @@ The collection comprises summaries in german, in english, sometimes including a 
 
 1. Use your own branch to commit.
 2. Commit features, not your daily / weekly status.
-3. Write [meaningful commit messsages](https://chris.beams.io/posts/git-commit/)
+3. Write [meaningful commit messsages](https://chris.beams.io/posts/git-commit/).
 4. When you find an error please make an [issue](https://docs.gitlab.com/ee/user/project/issues/) assigned to `muellegi`, describing the problem you found.
 
 # Getting started

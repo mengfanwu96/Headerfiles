@@ -1,3 +1,10 @@
+# What is this?
+
+This git repository represents the basis of a collection of summaries of varying quality, that helped the owner getting through the bachelor.
+It was created with the motivation to establish en effective basis for sharing knowledge and profiting from each others work.
+The collection comprises summaries in german, in english, sometimes including a short version (which is usually more up to date then the long one - guess why...).
+
+
 # Git workflow for ZFSG
 
 0. If you're new to git read an [introduction](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics).

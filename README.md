@@ -1,5 +1,7 @@
 # Git workflow for ZFSG
 
+0. Contact [me](mailto:muellegi@student.ethz.ch) to get access to one of the available summaries.
+
 1. Choose local a folder to contain your summaries.
 
 2. `cd` to `chosen folder` and clone the [Headerfiles](https://gitlab.ethz.ch/ZFSG/Headerfiles) repo:

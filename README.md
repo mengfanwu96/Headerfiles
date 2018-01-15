@@ -5,7 +5,7 @@ It was created with the motivation to establish en effective basis for sharing k
 The collection comprises summaries in german, in english, sometimes including a short version (which is usually more up to date than the long one - guess why...).
 
 
-# Git workflow for ZFSG
+# Getting started
 
 0. If you're new to git read an [introduction](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics).
 
@@ -24,3 +24,10 @@ The collection comprises summaries in german, in english, sometimes including a 
 5. Create your own branch, do your adaptation, push when you're finished or to back up.
 
 6. Contact [me](mailto:muellegi@student.ethz.ch) if you need help with git or latex or life in general.
+
+# Git rules
+
+1. Use your own branch to commit.
+2. Commit features, not your daily / weekly status.
+3. Write [meaningful commit messsages](https://chris.beams.io/posts/git-commit/)
+4. When you find an error please make an [issue](https://docs.gitlab.com/ee/user/project/issues/) assigned to `muellegi`, describing the problem you found.

@@ -26,6 +26,8 @@
 
 \newcommand{\mypic}[1]{\includegraphics[width=\linewidth]{#1}} %easy including of pictures within the column
 
+\newcommand{\myspic}[2]{\begin{center}\includegraphics[width=#1\linewidth]{#2}\end{center}} %more uneasy including of pictures
+
 \newcommand{\hfull}{\hfill$|$\hfill} %easy seperation of two equations
 %end commands
 
@@ -106,6 +108,8 @@
 
 \newcommand{\sign}[1]{\text{sign}(#1)}
 
+\newcommand{\diag}{\text{diag}}
+
 \newcommand{\vtabfill}{\vspace{-0.7ex}$\ $}
 
 \newcommand{\lap}[1]{\mathcal{L}(#1)}
@@ -116,3 +120,22 @@
 
 \newcommand{\sbss}[2]{\sbs{0.45}{0.45}{#1}{#2}}
 
+\renewcommand{\vec}[1]{\underline{#1}}
+
+\newcommand{\tvec}[1]{\underline{\underline{#1}}}
+
+\newcommand{\vecd}[1]{\underline{\dot{#1}}}
+
+\newcommand{\vecdd}[1]{\underline{\ddot{#1}}}
+
+\newcommand{\definitiontable}[1]{
+\note{
+\begin{center}
+\begin{tabular}{l@{$\quad$}l@{\dotfill$\quad$}cl}
+#1
+\end{tabular}
+\end{center}
+}}
+
+\newcommand{\highlight}[1]{%
+  \colorbox{cyan!20}{$\displaystyle#1$}}

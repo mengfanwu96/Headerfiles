@@ -163,3 +163,48 @@
 %$\vec{a}$&acceleration&in&$\si{\meter\per\second\squared}$\\
 %$\vec{F}$&resultant force&in&$\si{N}=\si{\kilo\gram\meter\per\second\squared}$
 %\end{TDefinitionTable}
+
+
+%Setup of code-snippet inclusion with \usepackage{listings}
+\newcommand{\lsgeneral}{
+\lstset{basicstyle=\ttfamily,
+breaklines=true,%
+showstringspaces=false,%without this there will be a symbol in the places where there is a space
+showspaces=false,% show spaces adding particular underscores
+showtabs=false, % show tabs within strings adding particular underscores
+tabsize=2,
+breaklines=true,
+numbers=left,%
+numberstyle={\tiny \color{black}},% size of the numbers
+numbersep=9pt, % this defines how far the numbers are from the text
+frame=single,
+breakatwhitespace=false,% sets if automatic breaks should only happen at whitespace
+xleftmargin=0.05\textwidth,
+columns=fixed,
+captionpos=b,
+}
+}
+
+%Definition of the style for matlab code
+\newcommand{\lsmatlab}{
+\lstset{language=Matlab,
+keywordstyle=\color{blue},%
+keywordstyle=[2]{\color{black}},
+identifierstyle=\color{black},%
+stringstyle=\color{blue!20!violet},
+commentstyle=\color{black!30!green},
+backgroundcolor=\color{yellow!20!white},
+}
+}
+
+%Definition of the environment encapsulating matlab code
+\lstnewenvironment{TPMatlab}[1][]{
+	\vspace{3ex}
+	\lstset{caption={#1}}
+	\lsgeneral
+	\lsmatlab
+	\centering\minipage{.9\textwidth}%
+}{
+	\endminipage%
+	\vspace{3ex}
+}

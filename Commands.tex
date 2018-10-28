@@ -2,6 +2,9 @@
 
 \newcommand{\fix}{\vspace{-23pt}} %reduce wasted space
 
+%Easy notation of physical units
+\newcommand{\siu}[1]{[\si{#1}]}
+
 \newcommand{\Eofr}{\vec{E}\left(\vec{r}\right)} 	%Elektrisches Feld
 
 \newcommand{\Bofr}{\vec{B}\left(\vec{r}\right)}	%Magnetisches Feld
@@ -96,17 +99,17 @@
 
 \DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
 
-\newcommand{\prob}[1]{\mathbb{P}(#1)}
+\newcommand{\prob}[1]{\mathbb{P}\left(#1\right)}
 
-\newcommand{\expe}[1]{\mathbb{E}[#1]}
+\newcommand{\expe}[1]{\mathbb{E}\left[#1\right]}
 
-\newcommand{\var}[1]{\text{Var}(#1)}
+\newcommand{\var}[1]{\text{Var}\left(#1\right)}
 
-\newcommand{\cov}[1]{\text{Cov}(#1)}
+\newcommand{\cov}[1]{\text{Cov}\left(#1\right)}
 
-\newcommand{\corr}[1]{\text{Corr}(#1)}
+\newcommand{\corr}[1]{\text{Corr}\left(#1\right)}
 
-\newcommand{\sign}[1]{\text{sign}(#1)}
+\newcommand{\sign}[1]{\text{sign}\left(#1\right)}
 
 \newcommand{\diag}{\text{diag}}
 
@@ -139,3 +142,24 @@
 
 \newcommand{\highlight}[1]{%
   \colorbox{cyan!20}{$\displaystyle#1$}}
+  
+  
+\NewDocumentEnvironment{TDefinitionTable*}{} %Used to define variables in an equation
+{
+%\rowcolors{1}{gray!25}{white}
+\footnotesize
+\begin{center}
+\begin{tabular}{lll}
+}
+{
+\end{tabular}
+\end{center}
+\normalsize
+}
+%Usage:
+%\begin{TDefinitionTable}
+%$\vect{P}$&change of linear momentum &in& $\si{\kilo\gram\meter\per\second\squared}$\\
+%$m$&mass&in&$\si{\kilo\gram}$\\
+%$\vec{a}$&acceleration&in&$\si{\meter\per\second\squared}$\\
+%$\vec{F}$&resultant force&in&$\si{N}=\si{\kilo\gram\meter\per\second\squared}$
+%\end{TDefinitionTable}

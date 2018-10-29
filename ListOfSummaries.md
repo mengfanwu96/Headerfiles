@@ -11,5 +11,8 @@
 | [Stochastik](https://gitlab.ethz.ch/ZFSG/H2016_Stochastik_Maathuis) | M. H. Maathuis H16 | Tested |
 | [System Modelling](https://gitlab.ethz.ch/ZFSG/H2016_SystemModeling_Ducard) | G. Ducard H16 | Tested |
 | [Informatik](https://gitlab.ethz.ch/ZFSG/F2018_Informatik_Lehner) | H. Lehner F18 | Untested |
+| [Vision Algorithms for Mobile Robotics](https://gitlab.ethz.ch/ZFSG/h2018_visionalgorithmsformobilerobotics_scaramuzza) | D. Scaramuzza H18 | Untested |
+| [System Identification](https://gitlab.ethz.ch/ZFSG/h2018_systemidentification_smith) | R. Smith H18 | Untested |
+| [Dynamic Programming and Optimal Control](https://gitlab.ethz.ch/ZFSG/h_2018_dynamicprogrammingandoptimalcontrol_dandrea) | R. D'Andrea H18 | Untested |
 
 _Tested_ in this case means that I and possibly others have used this summary successfully for the respective exam.

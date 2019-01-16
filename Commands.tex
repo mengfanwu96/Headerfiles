@@ -131,6 +131,8 @@
 
 \newcommand{\vecdd}[1]{\underline{\ddot{#1}}}
 
+\newcommand{\easyurl}[2]{\href{#2}{\textcolor{blue}{\underline{#1}}}}
+
 \newcommand{\definitiontable}[1]{
 \note{
 \begin{center}
@@ -203,7 +205,7 @@ backgroundcolor=\color{yellow!20!white},
 	\lstset{caption={#1}}
 	\lsgeneral
 	\lsmatlab
-	\centering\minipage{.9\textwidth}%
+	\centering\minipage{\linewidth}%
 }{
 	\endminipage%
 	\vspace{3ex}

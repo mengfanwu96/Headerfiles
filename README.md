@@ -1,7 +1,7 @@
 # What is this?
 
 This git repository represents part of a collection of summaries of varying quality and extent.
-It was created with the motivation to establish en effective basis for sharing knowledge and profiting from each others work. It allows using a common, working latex base by design.
+It was created with the motivation to establish an effective basis for sharing knowledge and profiting from each others work. It allows using a common, working latex base by design.
 The collection comprises summaries in german, in english, sometimes including a short version (which is usually more up to date than the long one - guess why...).
 
 # Git rules
@@ -16,7 +16,7 @@ The collection comprises summaries in german, in english, sometimes including a 
     - Use the imperative mood in the subject line
     - Wrap the body at 72 characters
     - Use the body to explain what and why vs. how
-4. When you find an error please make an [issue](https://docs.gitlab.com/ee/user/project/issues/) assigned to `muellegi`, describing the problem you found.
+4. When you find an error (content or environment) please make an [issue](https://docs.gitlab.com/ee/user/project/issues/) assigned to `muellegi`, describing the problem you found.
 
 # Getting started
 

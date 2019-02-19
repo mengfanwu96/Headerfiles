@@ -2,6 +2,9 @@
 
 \newcommand{\fix}{\vspace{-23pt}} %reduce wasted space
 
+%Easy notation of physical units
+\newcommand{\siu}[1]{[\si{#1}]}
+
 \newcommand{\Eofr}{\vec{E}\left(\vec{r}\right)} 	%Elektrisches Feld
 
 \newcommand{\Bofr}{\vec{B}\left(\vec{r}\right)}	%Magnetisches Feld
@@ -96,17 +99,17 @@
 
 \DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
 
-\newcommand{\prob}[1]{\mathbb{P}(#1)}
+\newcommand{\prob}[1]{\mathbb{P}\left(#1\right)}
 
-\newcommand{\expe}[1]{\mathbb{E}[#1]}
+\newcommand{\expe}[1]{\mathbb{E}\left[#1\right]}
 
-\newcommand{\var}[1]{\text{Var}(#1)}
+\newcommand{\var}[1]{\text{Var}\left(#1\right)}
 
-\newcommand{\cov}[1]{\text{Cov}(#1)}
+\newcommand{\cov}[1]{\text{Cov}\left(#1\right)}
 
-\newcommand{\corr}[1]{\text{Corr}(#1)}
+\newcommand{\corr}[1]{\text{Corr}\left(#1\right)}
 
-\newcommand{\sign}[1]{\text{sign}(#1)}
+\newcommand{\sign}[1]{\text{sign}\left(#1\right)}
 
 \newcommand{\diag}{\text{diag}}
 
@@ -128,6 +131,8 @@
 
 \newcommand{\vecdd}[1]{\underline{\ddot{#1}}}
 
+\newcommand{\easyurl}[2]{\href{#2}{\textcolor{blue}{\underline{#1}}}}
+
 \newcommand{\definitiontable}[1]{
 \note{
 \begin{center}
@@ -139,10 +144,8 @@
 
 \newcommand{\highlight}[1]{%
   \colorbox{cyan!20}{$\displaystyle#1$}}
-  
-\newcommand{\easyurl}[2]{\href{#2}{\textcolor{blue}{\underline{#1}}}}
 
-%Cpp listings
+%Setup of code-snippet inclusion with \usepackage{listings}
 \newcommand{\lsgeneral}{
 \lstset{basicstyle=\ttfamily,
 breaklines=true,%
@@ -161,7 +164,9 @@ columns=fixed,
 captionpos=b,
 }
 }
+  
 
+%Definition of the style for cpp code
 \newcommand{\lscpp}{
 \lstset{ 
 	language=C++,% choose the language of the code
@@ -174,7 +179,7 @@ captionpos=b,
 }
 }
 
-%For multiple fields within one slide
+%Definition of the environment encapsulating cpp code
 \lstnewenvironment{TPCpp}[1][]{
 	\vspace{3ex}
 	\lstset{caption={#1}}
@@ -185,3 +190,48 @@ captionpos=b,
 	\endminipage%
 	\vspace{1ex}
 }
+
+%Definition of the style for matlab code
+\newcommand{\lsmatlab}{
+\lstset{language=Matlab,
+keywordstyle=\color{blue},%
+keywordstyle=[2]{\color{black}},
+identifierstyle=\color{black},%
+stringstyle=\color{blue!20!violet},
+commentstyle=\color{black!30!green},
+backgroundcolor=\color{yellow!20!white},
+}
+}
+
+%Definition of the environment encapsulating matlab code
+\lstnewenvironment{TPMatlab}[1][]{
+	\vspace{3ex}
+	\lstset{caption={#1}}
+	\lsgeneral
+	\lsmatlab
+	\centering\minipage{.96\linewidth}%
+}{
+	\endminipage%
+	\vspace{3ex}
+}
+\NewDocumentEnvironment{TDefinitionTable*}{} %Used to define variables in an equation
+{
+%\rowcolors{1}{gray!25}{white}
+\footnotesize
+\begin{center}
+\begin{tabular}{lll}
+}
+{
+\end{tabular}
+\end{center}
+\normalsize
+}
+%Usage:
+%\begin{TDefinitionTable}
+%$\vect{P}$&change of linear momentum &in& $\si{\kilo\gram\meter\per\second\squared}$\\
+%$m$&mass&in&$\si{\kilo\gram}$\\
+%$\vec{a}$&acceleration&in&$\si{\meter\per\second\squared}$\\
+%$\vec{F}$&resultant force&in&$\si{N}=\si{\kilo\gram\meter\per\second\squared}$
+%\end{TDefinitionTable}
+
+

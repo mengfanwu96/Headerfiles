@@ -112,3 +112,22 @@
 {appendix/#3}}
 {\includepdf[pages=2-,scale=0.85,pagecommand={},linktodoc=true]{appendix/#3}
 }
+
+%----------------------------------------------------------------------------------------------
+%Research Collection
+%----------------------------------------------------------------------------------------------
+
+\NewDocumentEnvironment{Paper}{mm} %Used to define variables in an equation
+{
+
+\vspace{0.25ex}
+
+\href{run:./Papers/#2}{#1}
+\begin{em}
+}
+{
+\end{em}
+
+\vspace{0.5ex}
+
+}

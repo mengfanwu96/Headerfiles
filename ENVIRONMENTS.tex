@@ -1,0 +1,114 @@
+%This file contains all new environments simplifying LaTeX text editing
+%For each new environment clearly document its dependencies (packages) and its use
+%Adhere to the ordering by category!
+
+
+%----------------------------------------------------------------------------------------------
+%Tables
+%----------------------------------------------------------------------------------------------
+\NewDocumentEnvironment{TTable}{O{1}m} %Defines a basic tabular environment
+{
+\begin{table}[H]
+\centering
+\rowcolors{#1}{white}{gray!25}
+\begin{tabular}{#2}
+\toprule
+}
+{
+\bottomrule
+\end{tabular}
+\end{table}
+}
+%Usage:
+%\begin{TTable}[<startindex for colors>]
+%{<table layout>}
+%<your Content>
+%\end{TTable}
+%Dependencies: \usepackage{booktabs,xcolors,xparse}
+
+
+
+\NewDocumentEnvironment{TTable*}{mm} %Defines a basic tabular environment
+{
+\begin{table}[H]
+\centering
+#2
+\begin{tabular}{#1}
+\hline
+}
+{
+\hline
+\end{tabular}
+\normalsize
+\end{table}
+}
+%Usage:
+%\begin{TTable*}{<table layout>}{<size-command>}
+
+%<your Content>
+
+%\end{TTable*}
+
+
+
+
+\NewDocumentEnvironment{TDefinitionTable}{} %Used to define variables in an equation
+{
+\footnotesize
+\begin{center}
+\begin{tabular}{l@{$\quad$}l@{\dotfill$\quad$}cl}
+}
+{
+\end{tabular}
+\end{center}
+\normalsize
+}
+%Usage:
+%\begin{TDefinitionTable}
+%$\vect{P}$&change of linear momentum &in& $\si{\kilo\gram\meter\per\second\squared}$\\
+%$m$&mass&in&$\si{\kilo\gram}$\\
+%$\vec{a}$&acceleration&in&$\si{\meter\per\second\squared}$\\
+%$\vec{F}$&resultant force&in&$\si{N}=\si{\kilo\gram\meter\per\second\squared}$
+%\end{TDefinitionTable}
+
+\NewDocumentEnvironment{TValueTable}{} %Used to introduce a series of parameters with certain values
+{
+\footnotesize
+\begin{center}
+\begin{tabular}{r@{ = }lr}
+}
+{
+\end{tabular}
+\end{center}
+\normalsize
+}
+%Usage:
+%\begin{TValueTable}
+%$h_E$&$\SI{32}{\milli\meter}$&Extension of the brakes\\
+%$h_p$&$\SI{32}{\milli\meter}$&Height of a single plate\\
+%$l_B$&$\SI{80}{\milli\meter}$&Width of one brake\\
+%$n_p$&$l_B/l_p=\SI{5}{}$&Number of plates\\
+%$A_p$&$h_p\cdot l_p\cdot n_p=\SI{25.6}{\centi\meter\squared}$&Total area of the plates\\
+%$A_c$&$\SI{26.8}{\centi\meter\squared}$&Actual area of the brake
+%\end{TValueTable}
+
+
+%----------------------------------------------------------------------------------------------
+%Appendices
+%----------------------------------------------------------------------------------------------
+\NewDocumentEnvironment{singlePDFpage}{mmm}
+{
+\includepdf[pages=-,scale=.75,pagecommand={
+\subsection{#1}\label{#2}
+},linktodoc=true]
+{appendix/#3}
+}
+
+\NewDocumentEnvironment{multiPDFpage}{mmm}
+{
+\includepdf[pages=1,scale=.75,pagecommand={
+\subsection{#1}\label{#2}
+},linktodoc=true]
+{appendix/#3}}
+{\includepdf[pages=2-,scale=0.85,pagecommand={},linktodoc=true]{appendix/#3}
+}

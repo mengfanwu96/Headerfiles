@@ -20,21 +20,16 @@ The collection comprises summaries in german, in english, sometimes including a 
 
 # Getting started
 
-0. If you're new to git read an [introduction](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics).
-
-1. Contact [me](mailto:muellegi@student.ethz.ch) to get access to one of the [available summaries](https://gitlab.ethz.ch/ZFSG/Headerfiles/blob/master/ListOfSummaries.md).
+1. If you're new to git read an [introduction](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics).
 
 2. Choose a local folder to contain your summaries.
 
-3. `cd` to `chosen folder` and clone the [Headerfiles](https://gitlab.ethz.ch/ZFSG/Headerfiles) repo:
+3. `cd` to `chosen folder` and clone the [Headerfiles](https://github.com/zfsg/Headerfiles) repo:
 
-    `git clone https://gitlab.ethz.ch/ZFSG/Headerfiles`
+    `git clone https://github.com/zfsg/Headerfiles`
 
 4. Git will have created a `Headerfiles` folder in your `chosen folder`. Clone your chosen summary into that same `chosen folder`. 
 
-    `git clone https://gitlab.ethz.ch/ZFSG/SummaryName`
+    `git clone https://github.com/zfsg/SummaryName`
 
 5. Create your own branch, do your adaptation, push whenever you add a significant ammount of new content.
-
-6. Contact [me](mailto:muellegi@student.ethz.ch) if you need help with git or latex or life in general (maybe not).
-

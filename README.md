@@ -2,7 +2,9 @@
 
 This git repository represents part of a collection of summaries of varying quality and extent.
 It was created with the motivation to establish an effective basis for sharing knowledge and profiting from each others work. It allows using a common, working latex base by design.
-The collection comprises summaries in german, in english, sometimes including a short version (which is usually more up to date than the long one - guess why...).
+The collection comprises summaries in german, in english, sometimes including a short version.
+
+Also here is a [list](https://github.com/zfsg/Headerfiles/blob/master/ListOfSummaries.md) of all available summaries.
 
 # Git rules
 

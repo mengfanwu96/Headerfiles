@@ -18,7 +18,7 @@ Also here is a [list](https://github.com/zfsg/Headerfiles/blob/master/ListOfSumm
     - Use the imperative mood in the subject line
     - Wrap the body at 72 characters
     - Use the body to explain what and why vs. how
-4. When you find an error (content or environment) please make an [issue](https://docs.gitlab.com/ee/user/project/issues/) assigned to `muellegi`, describing the problem you found.
+4. When you find an error (content or environment) please make an [issue](https://docs.gitlab.com/ee/user/project/issues/) assigned to `bpfel`, describing the problem you found.
 
 # Getting started
 

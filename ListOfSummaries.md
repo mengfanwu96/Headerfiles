@@ -15,3 +15,4 @@
 | [System Identification](https://github.com/zfsg/H2018_SystemIdentification_Smith) | R. Smith H18 |
 | [Dynamic Programming and Optimal Control](https://github.com/zfsg/H_2018_DynamicProgrammingAndOptimalControl_DAndrea) | R. D'Andrea H18 |
 | [Advanced Dynamics](https://github.com/zfsg/F2018_AdvancedDynamics_Tiso) | P. Tiso H18 |
+| [Model Predictive Control](https://github.com/zfsg/F_2019_ModelPredictiveControl_Zeilinger) | M. Zeilinger F19 |

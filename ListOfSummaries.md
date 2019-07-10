@@ -16,3 +16,6 @@
 | [Dynamic Programming and Optimal Control](https://github.com/zfsg/H_2018_DynamicProgrammingAndOptimalControl_DAndrea) | R. D'Andrea H18 |
 | [Advanced Dynamics](https://github.com/zfsg/F2018_AdvancedDynamics_Tiso) | P. Tiso H18 |
 | [Model Predictive Control](https://github.com/zfsg/F_2019_ModelPredictiveControl_Zeilinger) | M. Zeilinger F19 |
+| [Recursive Estimation](https://github.com/zfsg/F_2019_RecursiveEstimation_DAndrea) | R. D'Andrea F19 |
+| [Introduction to Robotics and Mechatronics](https://github.com/zfsg/F_2019_IntroductionToRoboticsAndMechatronics_Nelson) | B. Nelson F19 |
+| [Introduction to Machine Learning](https://github.com/zfsg/F_2019_IntroductionToMachineLearning_Krause) | A. Krause F19 |
